@@ -1,0 +1,23 @@
+.vistas{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border: solid 3px blue;
+    position: absolute;
+    bottom: 0;
+}
+
+@media (max-width: 600px) {
+    
+   nav > div.container-fluid{
+    border:solid 3px greenyellow;
+    padding: 0.2rem 1rem;
+  }
+    a.navbar-brand{
+        font-size: 0.8rem;
+        text-align: center;
+        border:solid red 4px;
+        
+    }
+  }
